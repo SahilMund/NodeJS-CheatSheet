@@ -1,0 +1,27 @@
+<form method="post" action="/">
+    <p>
+        <label>Email:</label>
+        <input type="text" name="username">
+    </p>
+
+    <% if(error.username)  {%>
+        <p>
+            <% error.username.msg %>
+        </p>
+
+        }
+        <%   end if  %>
+            <p>
+                <label>Password:</label>
+                <input type="text" name="password">
+            </p>
+
+            <p>
+                <label>Confirm Password:</label>
+                <input type="text" name="cpassword">
+            </p>
+
+            <p>
+                <input type="submit" value="Login">
+            </p>
+</form>

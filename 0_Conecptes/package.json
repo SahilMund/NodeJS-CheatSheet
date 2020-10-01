@@ -1,0 +1,21 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "node js express is advance tutorial",
+  "main": "main_express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sahil",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "express-validator": "^6.4.1",
+    "mongoose": "^5.9.11",
+    "pug": "^2.0.4",
+    "twig": "^1.15.1"
+  }
+}
